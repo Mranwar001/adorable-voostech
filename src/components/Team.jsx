@@ -1,7 +1,7 @@
 export default function Team() {
   const teamMembers = [
     {
-      name: "Dr.Hamza Sulayman",
+      name: "Hamza Sulayman",
       role: "CEO & Director",
       description: "Visionary leader with 10+ years in tech entrepreneurship. Pioneering digital transformation across continents.",
       expertise: ["Strategy", "Innovation", "Leadership"],
@@ -57,16 +57,6 @@ export default function Team() {
       color: "from-cyan-500 to-teal-500",
       initials: "UN"
     },
-
-    {
-      name: "Abba Sulayman",
-      role: "Frontend Developer",
-      description: "Creating beautiful, responsive web interfaces with modern JavaScript frameworks and libraries.",
-      expertise: ["Vue.js", "Tailwind CSS", "Animation"],
-      color: "from-cyan-500 to-teal-500",
-      initials: "UN"
-    },
-    
     {
       name: "Isma'il",
       role: "Tech Team Member",
@@ -112,7 +102,7 @@ export default function Team() {
   return (
     <section id="team" className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        {/* Header........................ */}
+        {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-gray-800 rounded-full text-gray-300 text-sm font-semibold mb-4">
             BEHIND THE INNOVATION
@@ -127,14 +117,14 @@ export default function Team() {
           </p>
         </div>
 
-        {/* Grid...... */}
+        {/* Team Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {teamMembers.map((member, index) => (
             <div 
               key={index}
               className="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition-all duration-300 hover:-translate-y-2"
             >
-              {/* Avatarrrrrr */}
+              {/* Avatar */}
               <div className="mb-6">
                 <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${member.color} flex items-center justify-center text-2xl font-bold text-white mb-4`}>
                   {member.initials}
@@ -183,18 +173,20 @@ export default function Team() {
         <div className="mt-20 bg-gradient-to-r from-gray-900 to-black border border-gray-800 rounded-2xl p-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl mb-4">🌍</div>
+         <div className="text-4xl mb-4 before:content-['\1F30D']"></div>
+
               <h3 className="text-xl font-bold mb-2">Global Mindset</h3>
               <p className="text-gray-400">Team members across Nigeria, China, and the UK</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl mb-4">🤝</div>
+           <div className="text-4xl mb-4 before:content-['\1F91D']"></div>
+
               <h3 className="text-xl font-bold mb-2">Collaborative Culture</h3>
               <p className="text-gray-400">Cross-functional teams working seamlessly together</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl mb-4">🚀</div>
-              <h3 className="text-xl font-bold mb-2">Continuous Growth</h3>
+              <div className="text-4xl mb-4 before:content-['\1F680']"></div>
+              <h3 className="text-xl font-bold mb-2">Continuous  Growth</h3>
               <p className="text-gray-400">Regular training and skill development programs</p>
             </div>
           </div>
