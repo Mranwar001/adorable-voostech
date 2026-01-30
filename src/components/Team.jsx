@@ -48,7 +48,7 @@ export default function Team() {
       color: "from-indigo-500 to-blue-500",
       initials: "SI"
     },
-    // Additional names you requested
+    
     {
       name: "Umar Nazango",
       role: "Frontend Developer",
@@ -57,6 +57,16 @@ export default function Team() {
       color: "from-cyan-500 to-teal-500",
       initials: "UN"
     },
+
+    {
+      name: "Abba Sulayman",
+      role: "Frontend Developer",
+      description: "Creating beautiful, responsive web interfaces with modern JavaScript frameworks and libraries.",
+      expertise: ["Vue.js", "Tailwind CSS", "Animation"],
+      color: "from-cyan-500 to-teal-500",
+      initials: "UN"
+    },
+    
     {
       name: "Isma'il",
       role: "Tech Team Member",
@@ -102,7 +112,7 @@ export default function Team() {
   return (
     <section id="team" className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
+        {/* Header........................ */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-gray-800 rounded-full text-gray-300 text-sm font-semibold mb-4">
             BEHIND THE INNOVATION
@@ -117,14 +127,14 @@ export default function Team() {
           </p>
         </div>
 
-        {/* Team Grid */}
+        {/* Grid...... */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {teamMembers.map((member, index) => (
             <div 
               key={index}
               className="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition-all duration-300 hover:-translate-y-2"
             >
-              {/* Avatar */}
+              {/* Avatarrrrrr */}
               <div className="mb-6">
                 <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${member.color} flex items-center justify-center text-2xl font-bold text-white mb-4`}>
                   {member.initials}
