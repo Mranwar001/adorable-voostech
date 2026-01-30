@@ -3,7 +3,7 @@ export default function Services() {
     {
       title: "Web Development",
       description: "Custom web applications built with cutting-edge technologies like React, Next.js, and Node.js for maximum performance and scalability.",
-      icon: "💻",
+      icon: "\u{1F4BB}",
       color: "from-blue-500 to-cyan-500",
       features: ["React/Next.js", "TypeScript", "Node.js", "Performance Optimization"],
       gradient: "bg-gradient-to-br from-blue-500/20 to-cyan-500/20"
@@ -11,7 +11,7 @@ export default function Services() {
     {
       title: "Mobile Apps",
       description: "Native and cross-platform mobile applications using React Native and Flutter that deliver exceptional user experiences.",
-      icon: "📱",
+      icon: "\u{1F4F1}",
       color: "from-purple-500 to-pink-500",
       features: ["React Native", "Flutter", "iOS & Android", "App Store Optimization"],
       gradient: "bg-gradient-to-br from-purple-500/20 to-pink-500/20"
@@ -19,7 +19,7 @@ export default function Services() {
     {
       title: "Cloud Solutions",
       description: "Scalable cloud infrastructure and migration services with AWS, Azure, and Google Cloud expertise.",
-      icon: "☁️",
+      icon: "\u2601", 
       color: "from-orange-500 to-yellow-500",
       features: ["AWS/Azure/GCP", "DevOps", "Microservices", "Containerization"],
       gradient: "bg-gradient-to-br from-orange-500/20 to-yellow-500/20"
@@ -27,7 +27,7 @@ export default function Services() {
     {
       title: "AI Integration",
       description: "Machine learning and AI-powered features that automate processes and unlock new business possibilities.",
-      icon: "🤖",
+      icon: "\u{1F916}",
       color: "from-green-500 to-emerald-500",
       features: ["Machine Learning", "Computer Vision", "NLP", "Predictive Analytics"],
       gradient: "bg-gradient-to-br from-green-500/20 to-emerald-500/20"
@@ -35,7 +35,7 @@ export default function Services() {
     {
       title: "UI/UX Design",
       description: "User-centered design that combines aesthetics with functionality, creating interfaces users love.",
-      icon: "🎨",
+      icon: "\u{1F3A8}",
       color: "from-pink-500 to-rose-500",
       features: ["Figma/Adobe XD", "Prototyping", "User Testing", "Design Systems"],
       gradient: "bg-gradient-to-br from-pink-500/20 to-rose-500/20"
@@ -43,7 +43,7 @@ export default function Services() {
     {
       title: "Cybersecurity",
       description: "Comprehensive security solutions to protect digital assets with audits, penetration testing, and compliance.",
-      icon: "🛡️",
+      icon: "\u{1F6E1}",
       color: "from-red-500 to-orange-500",
       features: ["Security Audits", "Pen Testing", "GDPR/HIPAA", "Threat Monitoring"],
       gradient: "bg-gradient-to-br from-red-500/20 to-orange-500/20"
