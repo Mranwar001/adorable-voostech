@@ -11,7 +11,7 @@ export default function CaseStudies() {
         { label: "Load Time", from: "4.2s", to: "0.8s", change: "-81%" }
       ],
       color: "from-purple-500 to-pink-500",
-      icon: "🛒"
+      icon: "\u{1F6D2}",
     },
     {
       title: "FinTech Innovation",
@@ -24,7 +24,7 @@ export default function CaseStudies() {
         { label: "Active Users", from: "10K", to: "500K", change: "+4900%" }
       ],
       color: "from-blue-500 to-cyan-500",
-      icon: "💳"
+      icon: "\u{1F4B3}",
     },
     {
       title: "Healthcare Platform",
@@ -37,7 +37,7 @@ export default function CaseStudies() {
         { label: "Satisfaction", from: "72%", to: "96%", change: "+33%" }
       ],
       color: "from-green-500 to-emerald-500",
-      icon: "🏥"
+      icon: "\u{1F3E5}",
     }
   ]
 
