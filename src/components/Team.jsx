@@ -7,6 +7,7 @@ export default function Team() {
       expertise: ["Strategy", "Innovation", "Leadership"],
       color: "from-purple-500 to-pink-500",
       initials: "HS"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Abubakar Uba",
@@ -15,6 +16,7 @@ export default function Team() {
       expertise: ["Agile", "Risk Management", "Client Relations"],
       color: "from-blue-500 to-cyan-500",
       initials: "AU"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Cai Jingxian",
@@ -23,6 +25,7 @@ export default function Team() {
       expertise: ["ML/AI", "Big Data", "Analytics"],
       color: "from-green-500 to-emerald-500",
       initials: "CJ"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Gong Zhe",
@@ -31,6 +34,7 @@ export default function Team() {
       expertise: ["Figma", "Prototyping", "Design Systems"],
       color: "from-pink-500 to-rose-500",
       initials: "GZ"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Sulaiman Tahir",
@@ -39,6 +43,7 @@ export default function Team() {
       expertise: ["Node.js", "Python", "AWS"],
       color: "from-orange-500 to-yellow-500",
       initials: "ST"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Salisu Ibrahim",
@@ -47,6 +52,7 @@ export default function Team() {
       expertise: ["React", "TypeScript", "Next.js"],
       color: "from-indigo-500 to-blue-500",
       initials: "SI"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     
     {
@@ -56,6 +62,7 @@ export default function Team() {
       expertise: ["Vue.js", "Tailwind CSS", "Animation"],
       color: "from-cyan-500 to-teal-500",
       initials: "UN"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Isma'il",
@@ -64,6 +71,7 @@ export default function Team() {
       expertise: ["Git", "Deployment", "Technical Support"],
       color: "from-teal-500 to-green-500",
       initials: "IS"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Zubaida",
@@ -72,6 +80,7 @@ export default function Team() {
       expertise: ["Office Management", "Client Relations", "Documentation"],
       color: "from-rose-500 to-pink-500",
       initials: "ZB"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Rukayya",
@@ -80,6 +89,7 @@ export default function Team() {
       expertise: ["Copywriting", "Social Media", "Visual Design"],
       color: "from-yellow-500 to-orange-500",
       initials: "RK"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Khalid Abdullahi",
@@ -88,6 +98,7 @@ export default function Team() {
       expertise: ["Learning", "Support", "Documentation"],
       color: "from-gray-500 to-blue-gray-500",
       initials: "KA"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     },
     {
       name: "Al-Ma'amun Abdullahi",
@@ -96,6 +107,7 @@ export default function Team() {
       expertise: ["Market Research", "Tech Trends", "Strategy"],
       color: "from-blue-gray-500 to-gray-500",
       initials: "AA"
+      image: "https://i.postimg.cc/4dfCgRb0/ZEa-Dt-Vo-OLFd-Pxrec-HWq-KJQ4z-Na-U.jpg"
     }
   ]
 
