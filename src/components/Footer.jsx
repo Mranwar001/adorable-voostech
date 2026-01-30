@@ -136,7 +136,7 @@ export default function Footer() {
         {/* Acknowledgments */}
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-500 text-sm">
-            Special thanks to our amazing team: Hamza, Abubakar, Cai, Gong, Sulaiman, 
+            Special thanks to our amazing team: Dr.Hamza, Abubakar, Cai, Gong, Sulaiman, 
             Salisu, Umar, Isma'il, Zubaida, Rukayya, Khalid, and Al-Ma'amun
           </p>
           <p className="text-gray-600 text-xs mt-2">
