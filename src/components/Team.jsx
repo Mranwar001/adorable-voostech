@@ -57,6 +57,15 @@ export default function Team() {
       color: "from-cyan-500 to-teal-500",
       initials: "UN"
     },
+ {
+      name: "Abba Sulayman",
+      role: "Frontend Developer",
+      description: "Creating beautiful, responsive web interfaces with modern JavaScript frameworks and libraries.",
+      expertise: ["Vue.js", "Tailwind CSS", "Animation"],
+      color: "from-cyan-500 to-teal-500",
+      initials: "UN"
+    },
+    
     {
       name: "Isma'il",
       role: "Tech Team Member",
