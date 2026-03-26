@@ -1,7 +1,7 @@
 export default function Team() {
   const teamMembers = [
     {
-      name: "Hamza Sulayman",
+      name: "Dr.Hamza Sulayman",
       role: "CEO & Director",
       description: "Visionary leader with 10+ years in tech entrepreneurship. Pioneering digital transformation across continents.",
       expertise: ["Strategy", "Innovation", "Leadership"],
