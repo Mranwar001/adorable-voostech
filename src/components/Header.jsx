@@ -18,11 +18,11 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-500 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
               <span className="font-bold text-xl">V</span>
             </div>
             <div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text text-transparent">
+              <h1 className="text-2xl font-bold text-white">
                 VoosTech
               </h1>
               <p className="text-xs text-gray-400">Digital Innovation 2.0</p>
@@ -40,7 +40,7 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
                 {item.name}
               </a>
             ))}
-            <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all duration-300">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-semibold transition-all duration-300">
               Get Started
             </button>
           </nav>
@@ -76,7 +76,7 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
                   {item.name}
                 </a>
               ))}
-              <button className="bg-gradient-to-r from-purple-600 to-blue-500 text-white py-3 rounded-full font-semibold mt-4">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-full font-semibold mt-4 transition-colors duration-300">
                 Start Project
               </button>
             </div>

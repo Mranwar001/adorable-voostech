@@ -10,7 +10,7 @@ export default function CaseStudies() {
         { label: "User Engagement", from: "2.1min", to: "8.5min", change: "+305%" },
         { label: "Load Time", from: "4.2s", to: "0.8s", change: "-81%" }
       ],
-      color: "from-purple-500 to-pink-500",
+      color: "bg-purple-600",
       icon: "\u{1F6D2}",
     },
     {
@@ -23,7 +23,7 @@ export default function CaseStudies() {
         { label: "Processing Time", from: "3.5s", to: "0.3s", change: "-91%" },
         { label: "Active Users", from: "10K", to: "500K", change: "+4900%" }
       ],
-      color: "from-blue-500 to-cyan-500",
+      color: "bg-blue-600",
       icon: "\u{1F4B3}",
     },
     {
@@ -36,13 +36,13 @@ export default function CaseStudies() {
         { label: "Wait Time", from: "45min", to: "5min", change: "-89%" },
         { label: "Satisfaction", from: "72%", to: "96%", change: "+33%" }
       ],
-      color: "from-green-500 to-emerald-500",
+      color: "bg-emerald-600",
       icon: "\u{1F3E5}",
     }
   ]
 
   return (
-    <section id="case-studies" className="py-20 bg-gradient-to-b from-black to-gray-900">
+    <section id="case-studies" className="py-20 bg-black">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -50,7 +50,7 @@ export default function CaseStudies() {
             REAL-WORLD IMPACT
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="text-blue-200 font-semibold">
               Case Studies
             </span>
             <span className="block text-white">That Speak Volumes</span>
@@ -67,8 +67,8 @@ export default function CaseStudies() {
               key={index}
               className="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl p-8 hover:border-gray-700 transition-all duration-300 hover:-translate-y-2 overflow-hidden"
             >
-              {/* Background Gradient */}
-              <div className={`absolute top-0 right-0 w-64 h-64 bg-gradient-to-br ${study.color} rounded-full filter blur-3xl opacity-0 group-hover:opacity-10 transition-opacity duration-500`}></div>
+              {/* Background Accent */}
+              <div className={`absolute top-0 right-0 w-64 h-64 ${study.color} rounded-full filter blur-3xl opacity-0 group-hover:opacity-20 transition-opacity duration-500`}></div>
               
               {/* Header */}
               <div className="relative z-10">
@@ -108,7 +108,7 @@ export default function CaseStudies() {
                     </div>
                     <div className="h-1.5 bg-gray-800 rounded-full overflow-hidden">
                       <div 
-                        className={`h-full bg-gradient-to-r ${study.color} rounded-full`}
+                        className="h-full bg-blue-500 rounded-full"
                         style={{ 
                           width: metric.label === 'Load Time' || metric.label === 'Processing Time' || metric.label === 'Wait Time' 
                             ? `${100 - parseInt(metric.change)}%` 

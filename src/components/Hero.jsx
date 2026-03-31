@@ -17,11 +17,11 @@ export default function Hero() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6">
-            <span className="block bg-gradient-to-r from-purple-400 via-pink-500 to-blue-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-white">
+            <span className="block text-blue-300">
               Powered by
             </span>
-            <span className="block bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+            <span className="block text-cyan-300">
               Innovation
             </span>
           </h1>
@@ -40,9 +40,9 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <button className="group relative bg-gradient-to-r from-purple-600 to-blue-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-purple-500/30 transition-all duration-300 hover:-translate-y-1">
+            <button className="group relative bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:-translate-y-1">
               <span className="relative z-10">Start Your Project</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-blue-700 rounded-full opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
             </button>
             <button className="group border-2 border-gray-700 text-gray-300 px-8 py-4 rounded-full font-semibold text-lg hover:border-blue-400 hover:text-white transition-all duration-300">
               <span className="flex items-center justify-center space-x-2">

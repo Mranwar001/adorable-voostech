@@ -29,11 +29,11 @@ export default function Contact() {
           <span className="inline-block px-4 py-2 bg-gray-800 rounded-full text-gray-300 text-sm font-semibold mb-4">
             LET'S CONNECT
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+            <span className="block text-blue-300">
               Let's Build Something
             </span>
-            <span className="block text-white">Extraordinary Together</span>
+            <span className="block">Extraordinary Together</span>
           </h2>
           <p className="text-xl text-gray-400">
             Ready to transform your digital presence? We'd love to hear about your project
@@ -98,7 +98,7 @@ export default function Contact() {
             </div>
 
             {/* Working Hours */}
-            <div className="bg-gradient-to-r from-blue-900/20 to-purple-900/20 border border-blue-500/20 rounded-2xl p-8">
+            <div className="bg-gray-800/70 border border-gray-700 rounded-2xl p-8">
               <h3 className="text-xl font-bold mb-4 text-white">Working Hours</h3>
               <div className="space-y-2">
                 <div className="flex justify-between">
@@ -175,7 +175,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-purple-600 to-blue-500 text-white py-4 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-purple-500/30 transition-all duration-300"
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-lg font-semibold text-lg transition-all duration-300"
               >
                 Send Message
               </button>
