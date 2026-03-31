@@ -13,7 +13,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-gray-800/50 backdrop-blur-sm border border-gray-700 px-4 py-2 rounded-full mb-8">
             
-            <span className="text-sm">VoosTech 2.0 Launch • October 2024</span>
+
           </div>
 
           {/* Main Heading */}
